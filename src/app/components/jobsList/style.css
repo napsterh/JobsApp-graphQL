@@ -1,0 +1,26 @@
+.card-group {
+    max-width: 50%;
+    margin: 2em auto;
+    box-shadow: 0px 0px 15px 3px #00000059;
+  }
+
+  .jobsdesc h4 {
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: var(--jobs-item-header-color);
+    color: black;
+  }
+  @media (min-width: 480px) {
+    .jobsdesc h4 {
+      font-size: 2em;
+    }
+  }
+  @media (min-width: 768px) {
+    .jobsdesc h4 {
+      padding: 1.3em 0;
+    }
+  }
+  .jobsdesc img {
+    padding: 1em;
+  }
+  
